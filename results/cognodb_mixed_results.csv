@@ -1,0 +1,4 @@
+database,concurrency,operations,successful_operations,failed_operations,elapsed_seconds,throughput_ops_sec
+CognoDB,10,500,500,0,81.911,6.104
+CognoDB,20,1000,1000,0,65.689,15.223
+CognoDB,40,2000,2000,0,70.67,28.301
