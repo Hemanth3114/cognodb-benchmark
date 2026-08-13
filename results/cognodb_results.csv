@@ -1,0 +1,7 @@
+database,workload,warmup_iterations,measured_iterations,failures,average_ms,p50_ms,p95_ms,min_ms,max_ms
+CognoDB,1-hop traversal,20,200,0,578.617,343.232,1510.481,288.557,9077.561
+CognoDB,2-hop traversal,20,200,0,2562.503,2299.099,3699.588,1702.505,3981.972
+CognoDB,3-hop traversal,20,200,0,299.828,272.213,530.535,267.888,652.418
+CognoDB,point lookup,20,200,0,276.944,268.008,313.264,264.743,331.656
+CognoDB,indexed/filtered lookup,20,200,0,276.195,267.088,312.043,264.89,332.433
+CognoDB,aggregation,20,200,0,3066.925,2990.371,3920.507,2040.3,4530.0
